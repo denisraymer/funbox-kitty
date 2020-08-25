@@ -1,0 +1,15 @@
+.card-block {
+    &__stroke {
+        width: 1120px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__item {
+        border: 1px solid red;
+        width: 320px;
+        height: 480px;
+        margin: 10px;
+    }
+}
