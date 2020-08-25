@@ -1,0 +1,26 @@
+.card-block {
+    &__title {
+        font: {
+            family: 'Exo 2.0- Thin';
+            size: 36px;
+            weight: 400;
+        }
+        text-align: center;
+        color: #fff;
+        margin-bottom: 30px;
+    }
+
+    &__stroke {
+        width: 1120px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__item {
+        border: 1px solid red;
+        width: 320px;
+        height: 480px;
+        margin: 10px;
+    }
+}
