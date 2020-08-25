@@ -1,5 +1,7 @@
 body,
 html {
+    background: url('../../images/pattern.png');
+    background-size: auto;
     height: 100%;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -7,7 +9,8 @@ html {
 }
 
 #root {
-    height: 100%;
-    display: flex;
-    flex-direction: column;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.5) 100%);
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
 }
