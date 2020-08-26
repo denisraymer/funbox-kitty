@@ -7,7 +7,9 @@ const HomePage = () => {
         <div className='card-block'>
             <div className="card-block__title">Ты сегодня покормил кота?</div>
             <div className="card-block__stroke">
-                <ProductCard />
+                {products.products.map(productData => {
+                    return <ProductCard productData={productData} key={productData._id}/>
+                })}
             </div>
         </div>
     )
