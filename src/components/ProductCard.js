@@ -16,7 +16,9 @@ const ProductCard = (props) => {
                      className='product-card__image'/>
                 <div className="product-card__price">{productData.price} <span className='unit'>кг</span></div>
             </div>
-            <div className='product-card__footer'>Чего сидишь? Порадуй котэ, купи.</div>
+            <div className='product-card__footer'>Чего сидишь? Порадуй котэ, <button
+                className='button button_default'> купи</button>.
+            </div>
         </div>
     )
 }
