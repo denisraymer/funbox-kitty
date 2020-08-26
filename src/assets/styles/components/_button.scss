@@ -1,0 +1,19 @@
+.button {
+    border-width: 0;
+    background-color: transparent;
+    transition: color .5s;
+    outline: none;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+
+    &_default {
+        background: url('../../images/btn-dashed.svg') no-repeat bottom center;
+        background-size: auto;
+        color: #2ea8e6;
+
+        &:hover {
+            transition: color .5s;
+        }
+    }
+}
