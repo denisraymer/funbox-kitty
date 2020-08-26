@@ -10,7 +10,10 @@
         background-color: #f2f2f2;
         height: 480px;
         clip-path: polygon(13.9% 0, 100% 0, 100% 100%, 0 100%, 0 9.3%);
-        margin-bottom: 15px;
+        display: flex;
+        flex-direction: column;
+        margin: 0 0 15px 0;
+        padding-top: 24px;
         position: relative;
 
         &:before {
@@ -23,6 +26,77 @@
             left: -12px;
             top: 14px;
         }
+    }
+
+    &__description {
+        font: {
+            family: $TrebuchetMS;
+            size: 16px;
+            weight: 400;
+        }
+        color: #666;
+        margin: 0 0 15px 44px;
+    }
+
+    &__title {
+        font: {
+            family: $TrebuchetMS;
+            size: 48px;
+            weight: 700;
+        }
+        margin: 0 0 4px 44px;
+    }
+
+    &__category {
+        font: {
+            family: $TrebuchetMS;
+            size: 24px;
+            weight: 700;
+        }
+        margin: 0 0 15px 44px;
+    }
+
+    &__characteristics {
+        line-height: 16px;
+        font: {
+            family: $TrebuchetMS;
+            size: 14px;
+            weight: 400;
+        }
+        color: #666;
+        display: flex;
+        flex-direction: column;
+        margin-left: 44px;
+    }
+
+    &__price {
+        border-radius: 50px;
+        background-color: #1698d9;
+        width: 81px;
+        height: 60px;
+        line-height: 22px;
+        text-align: center;
+        font: {
+            family: $TrebuchetMS;
+            size: 42px;
+            weight: 400;
+        }
+        color: #fff;
+        padding-top: 21px;
+        position: absolute;
+        bottom: 15px;
+        right: 15px;
+
+        .unit {
+            font-size: 21px;
+        }
+    }
+
+    &__image {
+        width: 100%;
+        height: 273px;
+        object-fit: cover;
+        margin-top: auto;
     }
 
     &__footer {
