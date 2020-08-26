@@ -1,5 +1,6 @@
 import React from 'react';
 import ProductCard from '../components/ProductCard';
+import products from '../data.json';
 
 const HomePage = () => {
     return (
