@@ -21,8 +21,10 @@
     &_disabled {
         .product-card__content {
             border-color: $color-status-disabled;
+            transition: border 0s;
             &:before {
                 background-color: $color-status-disabled;
+                transition: background-color 0s;
             }
         }
 
@@ -39,6 +41,7 @@
 
         .product-card__price {
             background-color: $color-status-disabled;
+            transition: background-color 0s;
         }
 
         .product-card__footer {
@@ -51,6 +54,7 @@
         border: 4px solid $color-status-default;
         background-color: #f2f2f2;
         height: 480px;
+        transition: border .5s;
         clip-path: polygon(13.9% 0, 100% 0, 100% 100%, 0 100%, 0 9.3%);
         overflow: hidden;
         display: flex;
@@ -64,6 +68,7 @@
             width: 70px;
             height: 5px;
             background-color: $color-status-default;
+            transition: background-color .5s;
             transform: rotate(133.6deg);
             position: absolute;
             left: -13px;
@@ -117,6 +122,7 @@
         background-color: $color-status-default;
         width: 81px;
         height: 60px;
+        transition: background-color .5s;
         line-height: 22px;
         text-align: center;
         font: {
