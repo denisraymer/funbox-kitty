@@ -5,6 +5,15 @@
     flex-direction: column;
     margin: 10px;
 
+    &:focus {
+        outline: transparent;
+    }
+
+    @media screen and (max-width: 320px) {
+        width: 100%;
+        margin: 0;
+    }
+
     &_selected {
         .product-card__content {
             border-color: $color-status-selected;
@@ -93,6 +102,10 @@
             weight: 700;
         }
         margin: 0 0 4px 44px;
+
+        @media screen and (max-width: 414px) {
+            font-size: 30px;
+        }
     }
 
     &__category {
@@ -151,6 +164,7 @@
     }
 
     &__footer {
+        min-height: 40px;
         font-size: 13px;
         font-weight: 400;
         line-height: 16px;
