@@ -1,5 +1,6 @@
 .product-card {
     width: 320px;
+    cursor: pointer;
     display: flex;
     flex-direction: column;
     margin: 10px;
@@ -38,6 +39,10 @@
 
         .product-card__price {
             background-color: $color-status-disabled;
+        }
+
+        .product-card__footer {
+            color: #ffff66;
         }
     }
 
