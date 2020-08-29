@@ -1,68 +1,83 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Тестовое задание FunBox
 
-## Available Scripts
+## Установка
 
-In the project directory, you can run:
+    yarn
+    
+    yarn run start
 
-### `yarn start`
+## Ответы на вопросы
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+> Расскажите, чем, на ваш взгляд, отличается хорошая верстка от плохой с точки зрения
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+-   пользователя - возможность осуществлять доступ к приложению на любом из своих устройств не имея проблем с адаптивностью и кросс-браузерность. В случае ошибок или неполадок приложение выводить уведомления не разрушающие верстку по возможности подсказывающие что необходимо сделать для её устранения. Загрузка контента проходит быстро и не заставляет пользователя ждать. Использованы методы облегчения текста для чтения. Выделены ключевые слова, использованы заголовки, тема описывается короткими параграфами, и используются списки.
 
-### `yarn test`
+-   менеджера проекта - верстка соответствует большинству пунктов технического задания, соблюдены все технические аспекты, оформлен репозиторий, по необходимости есть документация.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+-   дизайнера - верстка и её поведение максимально отражает задумку дизайнера.
 
-### `yarn build`
+-   верстальщика - верстка соответствует макету, присутствует кроссбраузерность, кодировка и DOCTYPE, валидность (включая CSSLint и JSHint), доступность, микроформаты SEO. Независимость блоков в CSS: минимизация каскада, использование техник БЭМ. нормально смотрится во всех стандартных разрешениях от 1024 и выше, не имеет горизонтального скролла и вписывается в экран мобильных устройств. Проведена оптимизация по скорости загрузки.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+-   клиентского программиста - верстка рассчитана на динамическое изменение контента, блоки могут свободно перемещаться и удаляться, количество текста в блоках может увеличиваться и уменьшаться, изображения могут изменяться.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+-   серверного программиста - входящие данные на сервер, например, данные из форм должны поступать в определенном формате, изображения должны быть оптимизированы для быстрой загрузки сайта.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* * *
 
-### `yarn eject`
+> Опишите основные особенности верстки крупных многостраничных сайтов, дизайн которых может меняться в процессе реализации и поддержки.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Проект полностью отрисован дизайнером и показана анимация поведения элементов. В верстке используется методология БЭМ. Рутинные задачи автоматизированы например: сборка стилей, обработка javascript, работа со статичными файлами. соблюдается файловая структура и git flow. Задачи выполняются в срок.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+> Расскажите о своем опыте верстки подобных сайтов: какие методологии, инструменты и технологии вы применяли на практике.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
++ 
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+* * *
 
-## Learn More
+> Опишите основные особенности верстки сайтов, которые должны одинаково хорошо отображаться как на любом современном компьютере, так и на смартфонах и планшетах под управлением iOS и Android. Расскажите о своем опыте верстки подобных сайтов: какие инструменты и технологии вы применяли, как проверяли результат на различных устройствах, какие именно устройства требовалось поддерживать.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+В адаптивных сайтах фиксированные размеры должны быть только у мелких блоков, блоки не шире 320 пикселей, все остальные размеры в процентах, расположение блоков и их размер будет меняться в зависимости от устройства. Так же есть особенности отображения контента в устройствах apple. При верстке адаптивных сайтов использовал, flexbox, а так же медиа-запросы для разного отображения контента в зависимости от устройства. Результат тестировал в chrome devtools, а так же на собственной технике (смартфон, планшет).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+* * *
 
-### Code Splitting
+> Расскажите, какие инструменты помогают вам экономить время в процессе написания, проверки и отладки кода.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+При написании кода экономить время помогает IDE WebStorm, для отладки кода chrome devtools и его основные возможности.  
 
-### Analyzing the Bundle Size
+* * *
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+> Вам нужно понять, почему страница отображается некорректно в Safari на iOS и в IE на Windows. Код писали не вы, доступа к исходникам у вас нет. Ваши действия? Сталкивались ли вы с подобными проблемами на практике?
 
-### Making a Progressive Web App
+Можно использовать BrowserStack и виртуальные машины. Не часто сталкивался с подобными проблемами на практике.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+* * *
 
-### Advanced Configuration
+> Дизайнер отдал вам макет, в котором не показано, как должны выглядеть интерактивные элементы при наведении мыши. Ваши действия?
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+Для базовых элементов (a, button, ...) можно применять стандартные on-off анимации типа "убрать/добавить underline", "изменить opacity".
 
-### Deployment
+Для более сложных элементов (аккордеон, dropdown-меню, ...) запросить у дизайнера эти состояния.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+* * *
 
-### `yarn build` fails to minify
+> Какие ресурсы вы используете для развития в профессиональной сфере? Приведите несколько конкретных примеров (сайты, блоги и так далее).
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Использую тематические телеграмм-каналы, ресурс видео уроков coursehunter, статьи на medium.com, habr.ru
+
+> Какое направление развития вам более близко: JS-программирование, HTML/CSS - верстка или и то, и другое?
+
+Мне интересно JS-программирование, HTML/CSS - верстку делаю по необходимости.
+
+> Какие ещё области знаний, кроме тех, что непосредственно относятся к работе, вам интересны?
+
+DevOps — инжиниринг, системное администрирование, программирование микроконтроллеров
+
+* * *
+
+> Расскажите нам о себе и предоставьте несколько ссылок на последние работы, выполненные вами.
+
+Занимаюсь разработкой с 2016 года. Frontend-разработкой занимаюсь с 2018 года. Мне интересно всё что связано с Frontend-разработкой в частности архитектура и организация работы веб-приложений.
+
+Знаю и практикую следующие технологии: react/redux, продвинутая вёрстка HTML5 CSS3 SASS БЭМ, таск-менеджер — GULP, Адаптивная и кроссбраузерная верстка, препроцессоры SASS/SCSS, Bootstrap 4-ре и выше, GIT, модель ветвления git-flow, JIRA. Знаком с Unix-подобными операционными системами.
+
+На базовом уровне владею языками: Python, Ruby; Изучаю back-end фреймворк Ruby on Rails, Expressjs.
