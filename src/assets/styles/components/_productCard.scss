@@ -28,6 +28,8 @@
     }
 
     &_disabled {
+        cursor: not-allowed;
+
         .product-card__content {
             border-color: $color-status-disabled;
             transition: border 0s;
