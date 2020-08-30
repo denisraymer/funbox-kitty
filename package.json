@@ -1,6 +1,6 @@
 {
   "name": "funbox-kitty",
-  "version": "0.1.0",
+  "version": "1.0",
   "private": true,
   "homepage": "https://denisraymer.github.io/funbox-kitty/",
   "dependencies": {
@@ -37,5 +37,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "resolve-url-loader": "^3.1.1"
   }
 }
