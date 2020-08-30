@@ -28,6 +28,8 @@
     }
 
     &_disabled {
+        cursor: not-allowed;
+
         .product-card__content {
             border-color: $color-status-disabled;
             transition: border 0s;
@@ -78,7 +80,7 @@
             height: 5px;
             background-color: $color-status-default;
             transition: background-color .5s;
-            transform: rotate(133.6deg);
+            transform: rotate(132.6deg);
             position: absolute;
             left: -13px;
             top: 16px;
