@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6d13c16aa8e54fef23438ce8963985ee",
+    "revision": "558c344e17159f2209729d8dafbce2ee",
     "url": "/funbox-kitty/index.html"
   },
   {
-    "revision": "39217822fdc985868b8c",
-    "url": "/funbox-kitty/static/css/main.c3837bb3.chunk.css"
+    "revision": "fd813d957e551fdca133",
+    "url": "/funbox-kitty/static/css/main.fe832125.chunk.css"
   },
   {
     "revision": "6738890239360123b04a",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/funbox-kitty/static/js/2.1a691ca3.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "39217822fdc985868b8c",
+    "revision": "fd813d957e551fdca133",
     "url": "/funbox-kitty/static/js/main.43b1e15e.chunk.js"
   },
   {
@@ -28,8 +28,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/funbox-kitty/static/media/btn-dashed.d486fd22.svg"
   },
   {
-    "revision": "c6174e886a3ea223a4799e8d6dfcf7f5",
-    "url": "/funbox-kitty/static/media/exo-thin.c6174e88.ttf"
+    "revision": "44bde8744ccc0de7995a23b0e82dd281",
+    "url": "/funbox-kitty/static/media/exo-thin.44bde874.otf"
   },
   {
     "revision": "a1f226949959b5535636450a0c17fb4c",
