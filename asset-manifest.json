@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/funbox-kitty/static/css/main.c3837bb3.chunk.css",
+    "main.js": "/funbox-kitty/static/js/main.43b1e15e.chunk.js",
+    "main.js.map": "/funbox-kitty/static/js/main.43b1e15e.chunk.js.map",
+    "runtime-main.js": "/funbox-kitty/static/js/runtime-main.3fd63ac9.js",
+    "runtime-main.js.map": "/funbox-kitty/static/js/runtime-main.3fd63ac9.js.map",
+    "static/js/2.1a691ca3.chunk.js": "/funbox-kitty/static/js/2.1a691ca3.chunk.js",
+    "static/js/2.1a691ca3.chunk.js.map": "/funbox-kitty/static/js/2.1a691ca3.chunk.js.map",
+    "index.html": "/funbox-kitty/index.html",
+    "precache-manifest.eb3b71092c22c8b2da064b2a23ed7a96.js": "/funbox-kitty/precache-manifest.eb3b71092c22c8b2da064b2a23ed7a96.js",
+    "service-worker.js": "/funbox-kitty/service-worker.js",
+    "static/css/main.c3837bb3.chunk.css.map": "/funbox-kitty/static/css/main.c3837bb3.chunk.css.map",
+    "static/js/2.1a691ca3.chunk.js.LICENSE.txt": "/funbox-kitty/static/js/2.1a691ca3.chunk.js.LICENSE.txt",
+    "static/media/main.scss": "/funbox-kitty/static/media/exo-thin.c6174e88.ttf",
+    "static/media/product-kitty.png": "/funbox-kitty/static/media/product-kitty.a1f22694.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3fd63ac9.js",
+    "static/js/2.1a691ca3.chunk.js",
+    "static/css/main.c3837bb3.chunk.css",
+    "static/js/main.43b1e15e.chunk.js"
+  ]
+}
